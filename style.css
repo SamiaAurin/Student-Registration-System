@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Form */
+form {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Form label styling */
+.form-group label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Form input styling */
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Focus state for inputs */
+.form-control:focus {
+    border-color: #6a07f4;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+/* Submit button styling */
+.btn-register {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: whitesmoke;
+    transition: background-color 0.3s;
+    display: block;
+    margin: auto;
+}
+
+/* Hover state for submit button */
+.btn-register:hover {
+    background-color: #edeff2;
+    border: 2px solid rgb(90, 90, 160);
+}
+
+/* Checkbox styling */
+.form-check-input {
+    margin-top: 0.3rem;
+    cursor: pointer;
+}
+
+/* Checkbox label styling */
+.form-check-label {
+    margin-left: 1.25rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* Radio button styling */
+.form-check-inline .form-check-input {
+    margin-left: 0;
+}
+
+.form-check-inline .form-check-label {
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+
+/* Custom file input styling */
+.form-control[type="file"] {
+    padding: 3px;
+}
+
+
+/* Table and Pagination*/
+
+.table{
+    width: 100%;
+}
+
+.table_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #732855;
+}
+
+.table_header p{
+    font-size: 30px;
+    color: #f9f9f9;
+    font-weight: 500;
+}
+
+.table .add-new{
+    padding: 10px 20px;
+    background-color: rgb(121, 82, 179);
+    font-weight: bold;
+    color: white;
+    
+}
+
+.table input{
+    padding: 10px 20px;
+    margin: 0 10px;
+    outline: none;
+    border: 2px solid rgb(129, 67, 104);
+    border-radius: 50px;
+}
+
+.table-section{
+    
+    overflow: auto; 
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    max-width: 1200px;
+    border-collapse: collapse;
+    
+}
+
+.table button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+td button:nth-child(1){
+    background-color: #007bff;
+    color: white;
+}
+
+td button:nth-child(2){
+    background-color: #b51b28;
+    color: white;
+}
+
+thead th{
+    position: sticky;
+    top: 3px;
+    background-color: rgb(181, 181, 234);
+    color: #131211;
+
+}
+
+th,td{
+    border-bottom: 1px solid #100f0f;
+    padding: 10px 20px;
+    word-break: break-all;
+    text-align: center;
+}
+
+td img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+
+/* Pagination */
+.pagination .page-item .page-link {
+    color: #4d2146; 
+    border: 2px solid #4d2146; 
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 50%; 
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.pagination .page-item .page-link:hover {
+    background-color: #732855;
+    color: white;
+    border-color: #732855;
+}
+
+
+
+.pagination .page-item.active .page-link {
+    background-color: #343a40; /* Active background color */
+    border-color: #343a40;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}

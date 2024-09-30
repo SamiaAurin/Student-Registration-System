@@ -1,0 +1,50 @@
+
+@media (max-width: 768px) {
+   
+
+    .table_header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        background-color: #732855;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width: 595px) {
+
+    
+    /* Table */
+    .table_header{
+        padding: 3px; 
+    }
+  
+    .table_header p{
+        text-align: center;
+    }
+    .table input {
+        padding: 10px;
+        margin: 0;
+    }
+}
+
+@media (max-width:480px) {
+    
+}
+
+@media (max-width:375px) {
+
+  
+    .table_header{
+        padding: 3px; 
+    }
+  
+    .table_header p{
+        text-align: center;
+    }
+    
+  
+    
+}
